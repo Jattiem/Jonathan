@@ -7,6 +7,10 @@
     <title>Website</title>
 </head>
 <body>
+<!--Heading-->
+
+    <section>
+
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -14,19 +18,29 @@
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
-    <section>
-
-
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/qejbofWMgy8" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ea animi esse et repellendus eos voluptas laudantium non eius mollitia qui, obcaecati illum hic voluptatum? Consequatur earum suscipit nesciunt sit.</p>
-
-
     </section>
 
-    <p>
+
+
+
+
+<!--Media-->
+    <section>
+        <width="853" height="480" src="https://www.youtube.com/embed/qejbofWMgy8" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </section>
+
+
+<!--Paragraph-->
+        <section>
+                 <p>ipsum dolor sit amet consectetur adipisicing elit. Nam, ea animi esse et repellendus eos voluptas laudantium non eius mollitia qui, obcaecati illum hic voluptatum? Consequatur earum suscipit nesciunt sit.</p>
+    
+    
+    </section>
+
+    
+ <p>      
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Fuga cupiditate reiciendis ab nobis, voluptatum,
 <strong> debitis tempora mollitia nisi<em> magni</em> necessitatibus quaerat unde accusantium saepe cumque sequi. Sed,
@@ -35,7 +49,7 @@ optio nostrum?</strong>
 
 <img src="./Images/nature.png.png" alt="natural">
 
-
+<!--Form-->
 <section>
 
 <form>
@@ -62,13 +76,92 @@ optio nostrum?</strong>
     <input type="date" placeholder="Enter your date">
 
 </div>
+<div>
+    <label>Password:</label>
+    <input type="password"
+    placeholder="Enter your password">
+</div>
+<div>
+    <label>Gender:</label>
+    <span>Male:</span>
+    <input type="radio" name="gender">
+<span>Female:</span>
+    <input type="radio" name="gender">
+</div>
+<div>
+    <label>Subjects:</label>
+    <span>HTML5:</span>
+    <input type="checkbox">
+    <span>CSS3:</span>
+    <input type="checkbox">
+    
+    
+    
+</div>
 
-<input type="submit">
+<div>
+    <label>
+        Country
+    </label>
+    <select name="country">
+
+        <option value="south africa"> South Africa</option>
+        <option value="france">France</option>
+
+</div>
+
 
 </form>
 
 </section>
+<!--Table-->
+<section>
+    <table><caption>Phone numbers</caption>
+        <thead>
+        <tr>
+        <th>Name</th>
+        <th colspan="2">Phone</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>John</td>
+        <td>577854</td>
+        <td>577855</td>
+        </tr>
+        <tr>
+        <td>Jack</td>
+        <td>577856</td>
+        <td>577857</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+        <td>&nbsp;</td>
+        <td>Personal</td>
+        <td>Office</td>
+        </tr>
+        </tfoot>
+        </table>
+</section>
+<div>
+    <label>Email:</label>
+    <input type="email">
+</div>
+<!--Email-->
+<div>
+    <label>image</label>
+    <input type="image" src="./Images/nature.png.png">
+</div>
+<div>
+    <label>Choose a file</label>
+    <input value="file">
+
+</div>
+
+<input type="submit">
+
 
 </body>
-</body>
+
 </html>
